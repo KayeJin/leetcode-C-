@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-//if true return 1;else return 0;
+//if true return 1, else return 0;
 int isPalindrome(int x);
 int main()
 {
