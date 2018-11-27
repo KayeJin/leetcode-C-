@@ -1,12 +1,11 @@
 #include<stdio.h>
-
 int maxSubArray(int* nums,int numsSize);
 int findMaxSubArray(int* nums,int low,int high);
 int findMaxCrossingSubArray(int* nums,int low,int mid,int high,int leftsum,int rightsum);
 
 int main()
 {
-    int nums[9]={-2,1,-3,4,-1,2,1,-5,4};
+    int nums[9]={-2,1,-3,5,-1,2,1,-5,4};
     int t = maxSubArray(nums,9);
     printf("%d",t);
     return 0;
