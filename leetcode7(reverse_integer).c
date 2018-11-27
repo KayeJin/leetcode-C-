@@ -1,4 +1,4 @@
-#include<stdio.h>
+/*#include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
 
@@ -12,7 +12,7 @@ int main()
     printf("%d",t);
     return 0;
 }
-
+*/
 int reverse(int x)
 {
     int l=20,r,p=0,sum=0,temp;
