@@ -1,4 +1,5 @@
 #include<stdio.h>
+//两种方法，但是时间都很长，还要更好的才行
 #include<stdlib.h>
 int* twoSum(int* numbers, int numbersSize, int target, int* returnSize);
 int main()
@@ -12,7 +13,7 @@ int main()
     }
     return 0;
 }
-/*int* twoSum(int* numbers, int numbersSize, int target, int* returnSize) 
+int* twoSum(int* numbers, int numbersSize, int target, int* returnSize) 
 {
     int l=10;
     *returnSize = 2;
@@ -31,7 +32,7 @@ int main()
             }
         }
     }
-}*/
+}
 int* twoSum(int* numbers, int numbersSize, int target, int* returnSize)
 {
     *returnSize = 2;
